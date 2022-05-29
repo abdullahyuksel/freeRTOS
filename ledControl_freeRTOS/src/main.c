@@ -92,30 +92,36 @@ void ledFlashTask(void *params)
 			{
 				GPIO_ToggleBits(GPIOD, GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15);
 				vTaskDelay(100);
+				break;
 			}
 			case ms_250:
 			{
 				GPIO_ToggleBits(GPIOD, GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15);
 				vTaskDelay(250);
+				break;
 			}
 			case ms_500:
 			{
 				GPIO_ToggleBits(GPIOD, GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15);
 				vTaskDelay(500);
+				break;
 			}
 			case ms_750:
 			{
 				GPIO_ToggleBits(GPIOD, GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15);
 				vTaskDelay(750);
+				break;
 			}
 			case ms_1000:
 			{
 				GPIO_ToggleBits(GPIOD, GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15);
 				vTaskDelay(1000);
+				break;
 			}
 			default:
 			{
 				GPIO_ResetBits(GPIOD, GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15);
+				break;
 			}
 		}
 
