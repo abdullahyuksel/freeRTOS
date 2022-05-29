@@ -1,0 +1,12 @@
+core_cm4.h:1452:22:NVIC_EnableIRQ	16	static
+core_cm4.h:1535:22:NVIC_SetPriority	16	static
+main.c:32:6:EXTI0_IRQHandler	8	static
+main.c:49:5:main	16	static
+main.c:77:6:ledFlashTask	16	static
+main.c:131:6:setupConfig	8	static
+main.c:137:6:gpioConfig	24	static
+main.c:168:6:EXTIConfig	16	static
+main.c:185:6:NVICConfig	8	static
+main.c:191:6:buttonHandler	4	static
+main.c:199:6:EVAL_AUDIO_TransferComplete_CallBack	16	static
+main.c:208:10:EVAL_AUDIO_GetSampleCallBack	4	static
