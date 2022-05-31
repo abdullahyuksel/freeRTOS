@@ -1,0 +1,4 @@
+stm32f4xx_it.c:57:6:MemManage_Handler	4	static
+stm32f4xx_it.c:70:6:BusFault_Handler	4	static
+stm32f4xx_it.c:83:6:UsageFault_Handler	4	static
+stm32f4xx_it.c:98:6:DebugMon_Handler	4	static
