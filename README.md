@@ -9,3 +9,5 @@ freeRTOS examples for STMicrocontrollers
 4-led control with button using to xTaskNotify API in freeRTOS
 
 5-freeRTOS_HAL_stock example
+
+6-freeRTOS HAL ledControl
