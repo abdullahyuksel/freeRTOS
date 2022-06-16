@@ -13,3 +13,5 @@ freeRTOS examples for STMicrocontrollers
 6-freeRTOS HAL ledControl
 
 7-led control with xTimer API using to xQueue API in freeRTOS
+
+8-semaphore with queue APIs in freeRTOS
