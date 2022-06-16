@@ -111,6 +111,8 @@ void slaveWorkFunc(unsigned int passid)
 	char message[50]={0};
 	sprintf(message, "pasId: %d\n\r", passid);
 	sendMessage(message);
+
+	vTaskDelay(passid);
 }
 
 void Slave_Task_Handler(void *parameters)
