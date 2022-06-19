@@ -17,3 +17,5 @@ freeRTOS examples for STMicrocontrollers
 8-semaphore with queue APIs in freeRTOS
 
 9-counting semaphore using with task and interrupt in freeRTOS
+
+10-mutual exclusion method using with binary semaphore and mutex example in freeRTOS
