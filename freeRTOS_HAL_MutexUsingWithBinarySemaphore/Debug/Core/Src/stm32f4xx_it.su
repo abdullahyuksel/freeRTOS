@@ -1,0 +1,4 @@
+../Core/Src/stm32f4xx_it.c:72:6:BusFault_Handler	4	static
+../Core/Src/stm32f4xx_it.c:87:6:UsageFault_Handler	4	static
+../Core/Src/stm32f4xx_it.c:103:6:DebugMon_Handler	4	static
+../Core/Src/stm32f4xx_it.c:124:6:TIM6_DAC_IRQHandler	8	static
