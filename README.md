@@ -15,3 +15,5 @@ freeRTOS examples for STMicrocontrollers
 7-led control with xTimer API using to xQueue API in freeRTOS
 
 8-semaphore with queue APIs in freeRTOS
+
+9-counting semaphore using with task and interrupt in freeRTOS
